@@ -71,7 +71,7 @@ This writes to:
 ~/.config/ngrok/ngrok.yml
 ```
 ### Start tunnel again with ngrok http 8000 in the seperate terminal
-<img width="863" height="291" alt="image" src="https://github.com/user-attachments/assets/3693e7df-2d24-4fbc-85c3-08b85a2c6b85" />
+<img width="863" height="291" alt="image" src="https://github.com/user-attachments/assets/3451dc5a-0b40-4b49-98fd-795f90f7ca44" />
 
 ## Example: Sending a Test Lead
 ```bash
@@ -101,6 +101,7 @@ curl -X POST http://127.0.0.1:8000/webhook \
 This solution demonstrates how incoming leads can be validated, transformed, and forwarded to customer-specific APIs in a clean and extensible way, closely reflecting real-world lead distribution systems.
 
 Note: “Swagger UI cannot fully represent the dynamic incoming lead schema. Testing was done using curl with raw JSON payloads, which mirrors real webhook behavior.”
+
 
 
 
