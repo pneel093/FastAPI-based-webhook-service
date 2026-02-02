@@ -1,8 +1,8 @@
-# CHECKFOX Developer Test Task – Lead Processing API
+# Task – Lead Processing API
 
 ## Description
 
-This project implements a small FastAPI-based webhook service that simulates a real-world lead processing pipeline for CHECKFOX.
+This project implements a small FastAPI-based webhook service that simulates a real-world lead processing pipeline.
 
 The service receives lead/contact data, validates it against customer-specific rules, transforms the data according to provided documentation, and forwards valid leads to a customer API endpoint.
 
@@ -97,3 +97,4 @@ curl -X POST http://127.0.0.1:8000/webhook \
 This solution demonstrates how incoming leads can be validated, transformed, and forwarded to customer-specific APIs in a clean and extensible way, closely reflecting real-world lead distribution systems.
 
 Note: “Swagger UI cannot fully represent the dynamic incoming lead schema. Testing was done using curl with raw JSON payloads, which mirrors real webhook behavior.”
+
