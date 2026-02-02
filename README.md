@@ -40,6 +40,9 @@ pip install fastapi uvicorn requests
 ```bash
 uvicorn main:app --reload
 ```
+<img width="996" height="212" alt="image" src="https://github.com/user-attachments/assets/cbdfde94-405d-421c-a5b1-98095cbb3258" />
+
+
 4. The webhook will be available at:
 ```bash
 http://127.0.0.1:8000/webhook
@@ -97,4 +100,5 @@ curl -X POST http://127.0.0.1:8000/webhook \
 This solution demonstrates how incoming leads can be validated, transformed, and forwarded to customer-specific APIs in a clean and extensible way, closely reflecting real-world lead distribution systems.
 
 Note: “Swagger UI cannot fully represent the dynamic incoming lead schema. Testing was done using curl with raw JSON payloads, which mirrors real webhook behavior.”
+
 
